@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/blue"
+        android:onClick="@color/blue"
+        android:linksClickable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <TextView
+        android:id="@+id/transaction_history"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/blue"
+        android:layout_height="wrap_content"
+        android:text="Transaction History"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+    <TextView
+        android:id="@+id/new_transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/blue"
+        android:text="Make a new Transaction"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+    <TextView
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin Change"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColor="@color/blue"
+        android:text="Logout"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView 
+        android:id="@+id/is_password_changed"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ssss"
+        />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="confirm password" />
+
+    <EditText
+        android:id="@+id/old_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/confirm_password"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="old password" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/old_password"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/old_password"
+        android:text="change" />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm_password"
+        android:layout_marginBottom="34dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:ems="10"
+        android:hint="new password"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
